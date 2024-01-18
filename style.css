@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url(games/valorant/valorant_style.css);
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: rgb(158, 84, 0);
-    --cor-terciaria: gray;
+    --cor-primaria: #161A30;
+    --cor-texto: #F0ECE5;
+    --cor-texto-cabecalho: #B6BBC4;
+    --cor-terciaria: #14213d;
+    --cor-hover: #7077A1;
+    --cor-banner: #424769;
+    --cor-background: #31304D;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -15,7 +20,7 @@
 }
 
 .cabecalho{
-    padding: 1% 0 0 1%;
+    padding: 1% 0 1% 1%;
     background-color: var(--cor-primaria);
 }
 
@@ -28,7 +33,7 @@
     font-family: var(--fonte-secundaria);
     font-size: 2rem;
     font-weight: 600;
-    color: var(--cor-secundaria);
+    color: var(--cor-texto-cabecalho);
     text-decoration: none;
 }
 
@@ -38,18 +43,23 @@
 }
 
 body{
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
 }
 
 .apresentacao__conteudo__titulo{
     font-family: var(--fonte-primaria);
     font-size: 2.5rem;
+    margin: 1rem;
 }
 
 .apresentacao__conteudo__texto{
     font-family: var(--fonte-secundaria);
-    font-size: 5rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-indent: 2rem;
 }
+
 
 .sessao_banner{
     padding: 5%;
@@ -61,8 +71,8 @@ body{
 .banner{
     display: flex;
     flex-direction: column;
-    background-color: rgb(161, 161, 161);
-    width: 19rem;
+    background-color: var(--cor-banner);
+    width: 18.5rem;
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
@@ -76,20 +86,35 @@ body{
     transform: scale(1.1);
 }
 
+.banner__imagem{
+    width: 19rem;
+    height: 28.5rem;
+    border-radius: 15px;
+    display: flex;
+    align-self: center;
+}
+
 .banner__botao{
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     text-align: center;
     border: 2px solid black;
     border-radius: 10px;
-    margin: 5px;
+    margin: 5px 0;
     padding: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--cor--texto);
+}
+
+.banner__botao:hover{
+    background-color: var(--cor-hover);
 }
 
 .rodape{
     padding: 24px;
     text-align: center;
-    color: var(--cor-secundaria);
+    color: var(--cor--texto);
     background-color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     width: 400;
