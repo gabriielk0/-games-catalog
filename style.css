@@ -97,6 +97,8 @@ body{
     margin: 5px 0;
     padding: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
 .banner__botao:hover{
