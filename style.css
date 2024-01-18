@@ -48,7 +48,7 @@ body{
 
 .apresentacao__conteudo__texto{
     font-family: var(--fonte-secundaria);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .sessao_banner{
@@ -87,7 +87,7 @@ body{
 }
 
 .banner__botao:hover{
-    color: rgb(102, 102, 102)
+    background-color: rgb(102, 102, 102)
 }
 
 .rodape{
