@@ -44,7 +44,7 @@
 
 body{
     background-color: var(--cor-background);
-    color: var(--cor--texto);
+    color: var(--cor-texto);
 }
 
 .apresentacao__conteudo__titulo{
