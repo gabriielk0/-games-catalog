@@ -89,7 +89,8 @@ body{
     width: 19rem;
     height: 28.5rem;
     border-radius: 15px;
-    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .banner__botao{
