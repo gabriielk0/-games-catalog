@@ -1,6 +1,7 @@
 .logo__valorant{
-    display: flex;
+    /* display: flex; */
     width: 50%;
-    justify-content: center;
-    margin: 3rem;
+    /* justify-content: center;
+    margin: 3rem; */
+    text-align: center;
 }
