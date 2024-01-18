@@ -86,6 +86,10 @@ body{
     cursor: pointer;
 }
 
+.banner__botao:hover{
+    color: rgb(102, 102, 102)
+}
+
 .rodape{
     padding: 24px;
     text-align: center;
