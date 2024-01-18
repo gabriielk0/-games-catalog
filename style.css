@@ -4,6 +4,7 @@
     --cor-primaria: #000000;
     --cor-secundaria: rgb(158, 84, 0);
     --cor-terciaria: gray;
+    --cor-hover: #ffffff;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -80,6 +81,7 @@ body{
 .banner__imagem{
     width: 19rem;
     height: 28.5rem;
+    border-radius: 10%;
 }
 
 .banner__botao{
