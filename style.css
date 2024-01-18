@@ -5,6 +5,7 @@
     --cor-secundaria: #ffd60a;
     --cor-terciaria: #14213d;
     --cor-hover: #003566;
+    --cor-banner: #0e1b36;
     --cor-background: #000000;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -40,7 +41,8 @@
 }
 
 body{
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-background);
+    color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__titulo{
@@ -64,7 +66,7 @@ body{
 .banner{
     display: flex;
     flex-direction: column;
-    background-color: rgb(161, 161, 161);
+    background-color: var(--cor-banner);
     width: 18.5rem;
     border: 2px solid black;
     border-radius: 15px;
@@ -96,7 +98,7 @@ body{
 }
 
 .banner__botao:hover{
-    background-color: rgb(102, 102, 102)
+    background-color: var(--cor-hover);
 }
 
 .rodape{
