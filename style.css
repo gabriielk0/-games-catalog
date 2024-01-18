@@ -49,11 +49,13 @@ body{
 .apresentacao__conteudo__titulo{
     font-family: var(--fonte-primaria);
     font-size: 2.5rem;
+    margin: 1rem;
 }
 
 .apresentacao__conteudo__texto{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+    margin: 1rem;
 }
 
 
