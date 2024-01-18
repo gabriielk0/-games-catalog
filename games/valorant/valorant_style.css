@@ -10,11 +10,14 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    margin-bottom: 0;
 }
 
 .requisitos__separacao{
-    margin: 0 1rem 1rem 0;
-    border-right: 2px solid white; 
+    padding: 0 1rem;
+    padding-bottom: 0;
+    border-right: 2px solid white;
+    
 }
 
 .requisitos__lista {
