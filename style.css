@@ -81,7 +81,7 @@ body{
 .banner__imagem{
     width: 19rem;
     height: 28.5rem;
-    border-radius: 10%;
+    border-radius: 15px;
 }
 
 .banner__botao{
